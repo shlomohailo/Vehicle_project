@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#div_about {
+
+    margin: auto auto;
+    text-align: center;
+    margin-top: 20px;
+}
