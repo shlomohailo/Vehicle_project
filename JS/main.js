@@ -35,18 +35,23 @@ function SwitchBetweenScreens(value) {
         finally { }
     }
     function writeCityName() {
-        const cityName = "Rehovot";
+        const cityName = "Lod";
 
         getCityWether(cityName).then((res) => {
 
-            // console.log(res)
-            for (const key in res) {
-                if (key == "main") {
+            console.log(res.weather.forEach(element => {
+                // console.log(element.description)
+                wearer.innerHTML=element.description;
+            }))
 
-                    wearer.innerHTML = res[key][1];
-                    // console.log(res[key])
-                }
-            }
+            // wearer.innerHTML=res.weather.description
+            // for (const key in res) {
+            //     if (key == "main") {
+
+            //         wearer.innerHTML = res[key][1];
+            //         // console.log(res[key])
+            //     }
+            // }
         })
     }
 

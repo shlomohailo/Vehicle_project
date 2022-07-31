@@ -6,7 +6,9 @@
 form{
     justify-content: center;
     margin: auto auto;
-    margin-top: 20px;
+    margin-top: 30px;
+    border: 1px solid black;
+    padding: 10px;
 
 }
 #message{

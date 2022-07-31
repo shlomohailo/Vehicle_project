@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: rgb(129, 125, 125);
+}
 #logo_img{
     border-radius: 15px;
     width: 35px;
@@ -63,6 +65,6 @@
 #p{
     display: flex;
     justify-content: flex-end;
-    background-color: red;
     align-items: flex-end;
+
 }

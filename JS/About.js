@@ -8,7 +8,7 @@ function onLoadAbout() {
     <h1 class="card-title">ABOUT  US</h1>
     
        <div class="card   style="width: 18rem;">
-      <img class="card-img-top mx-auto p-1"  src="IMAGES/compony 4.jpg"   style="width:100%;  height:400px" >
+      <img class="card-img-top mx-auto p-1"  src="IMAGES/compny new.jpeg"   style="width:90vw;  height:80vh" >
       <div class="card-body">
        <h3 class="card-title">We are here because the earth needs a good lawyer.</h3>
 

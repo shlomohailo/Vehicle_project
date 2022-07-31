@@ -9,6 +9,8 @@ function onLoadHome() {
 
     `<div id="div_home">
 
+    
+
     <h1>Electric vehicles are not just the wave of the future, 
     they are saving lives today.</h1>
         <div class="card mb-3 my-2" style="width:80vw ;">

@@ -4,7 +4,7 @@ function onLoadUsers() {
     let div_main = document.getElementById("div_main")
     div_main.innerHTML=""
     div_main.innerHTML += `
-    <h1 class="font-italic text-primary">Investor Relations</h1>
+    <h1 class="font-italic text-dark">Investor Relations</h1>
     <div class="table-responsive table-bordered" id="div_table">
     <table id="table">
     <thead>
@@ -43,7 +43,6 @@ function onLoadUsers() {
                 <tr><td>  ${elementuser.name.first} ${elementuser.name.last} </td>
             <td> ${elementuser.email}  </td>
             <td> ${elementuser.phone}  </td>
-            <td> <button onclilck=" delteUser('${elementuser._id})">DELETE</button> </td>
 
             </tr>`
 

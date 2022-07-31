@@ -1,7 +1,7 @@
 function onLoadCars() {
     let divmain = document.getElementById("div_main")
 
-  
+    divmain.innerHTML += `<h1>hvuhuc</h1>`
 
     const API = 'https://private-anon-9605e0f607-carsapi.apiary-mock.com/manufacturers';
 
@@ -42,11 +42,11 @@ function onLoadCars() {
         "https://media.istockphoto.com/photos/transparent-car-picture-id184119153?s=612x612",
         "https://media.istockphoto.com/photos/yellow-electric-sports-car-charging-from-cable-on-parking-spot-sea-picture-id1336106724?k=20&m=1336106724&s=612x612&w=0&h=si3okcrQwbCBossVOZNrcna3vhcNG9OQveAvHZhOdyQ=",
         "https://media.istockphoto.com/photos/electric-car-plugged-into-the-charging-station-picture-id155283411?k=20&m=155283411&s=612x612&w=0&h=r07huwTYyzZSIW8M7VAysv2drATvRKgh4CJ3I0d73Fg=",
-        "https://media.istockphoto.com/photos/young-woman-charging-an-electric-vehicle-picture-id1138377924?s=612x612","https://media.istockphoto.com/photos/ford-mustang-mache-gt-on-a-street-picture-id1362982828?s=612x612",
+        "https://media.istockphoto.com/photos/young-woman-charging-an-electric-vehicle-picture-id1138377924?s=612x612", "https://media.istockphoto.com/photos/ford-mustang-mache-gt-on-a-street-picture-id1362982828?s=612x612",
         "https://media.istockphoto.com/photos/transparent-car-picture-id184119153?s=612x612",
         "https://media.istockphoto.com/photos/yellow-electric-sports-car-charging-from-cable-on-parking-spot-sea-picture-id1336106724?k=20&m=1336106724&s=612x612&w=0&h=si3okcrQwbCBossVOZNrcna3vhcNG9OQveAvHZhOdyQ=",
         "https://media.istockphoto.com/photos/electric-car-plugged-into-the-charging-station-picture-id155283411?k=20&m=155283411&s=612x612&w=0&h=r07huwTYyzZSIW8M7VAysv2drATvRKgh4CJ3I0d73Fg=",
-        "https://media.istockphoto.com/photos/young-woman-charging-an-electric-vehicle-picture-id1138377924?s=612x612","https://media.istockphoto.com/photos/ford-mustang-mache-gt-on-a-street-picture-id1362982828?s=612x612",
+        "https://media.istockphoto.com/photos/young-woman-charging-an-electric-vehicle-picture-id1138377924?s=612x612", "https://media.istockphoto.com/photos/ford-mustang-mache-gt-on-a-street-picture-id1362982828?s=612x612",
         "https://media.istockphoto.com/photos/transparent-car-picture-id184119153?s=612x612",
         "https://media.istockphoto.com/photos/yellow-electric-sports-car-charging-from-cable-on-parking-spot-sea-picture-id1336106724?k=20&m=1336106724&s=612x612&w=0&h=si3okcrQwbCBossVOZNrcna3vhcNG9OQveAvHZhOdyQ=",
         "https://media.istockphoto.com/photos/electric-car-plugged-into-the-charging-station-picture-id155283411?k=20&m=155283411&s=612x612&w=0&h=r07huwTYyzZSIW8M7VAysv2drATvRKgh4CJ3I0d73Fg=",
