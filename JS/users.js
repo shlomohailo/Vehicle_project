@@ -26,7 +26,7 @@ function onLoadUsers() {
         try {
             
             return await fetch(`${API_USERS}`)
-                .then((res) => { return res.json() })
+                .then((res) => { return resss.json() })
 
         } catch (error) {
             alert(error)
@@ -40,7 +40,7 @@ function onLoadUsers() {
             resultuser.forEach(elementuser => {
                 tbody.innerHTML += ` 
                 
-                <tr><td>  ${elementuser.name.first} ${elementuser.name.last} </td>
+                <tr><td>  ${elementuser.name.first} ${elemenser.name.last} </td>
             <td> ${elementuser.email}  </td>
             <td> ${elementuser.phone}  </td>
 
