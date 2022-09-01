@@ -4,7 +4,7 @@ function onLoadCars() {
     divmain.innerHTML += `<h1>hvuhuc</h1>`
 
     const API = 'https://private-anon-9605e0f607-carsapi.apiary-mock.com/manufacturers';
-
+esfdxfdzvbvxcvc
     async function getDataCar() {
         try {
             divmain.innerHTML = `<img style=" display: flex;justify-content: center ; margin:auto auto;height: 20vh; "  src="https://media0.giphy.com/media/3o7bu3XilJ5BOiSGic/giphy.gif">`
